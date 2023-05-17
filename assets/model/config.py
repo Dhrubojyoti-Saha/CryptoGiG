@@ -1,0 +1,1 @@
+apiKey = "coinranking0497f3bb63d287f5203c68acaa24a00474291dc8ac384029"

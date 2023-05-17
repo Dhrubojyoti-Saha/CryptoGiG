@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0%;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+/* img{
+width: 100%;
+height: 100vh;
+opacity: 40%;
+
+   
+} */
+.font {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 13px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 25px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* .search{
+    border-radius: 47px;
+    padding: 5px;
+  } */
+.topnav h2 {
+    float: left;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    background-color: #051725de;
+    color: white;
+}
+
+ .topnav a:is(:link,:active, :visited).active {
+    background-color: #051725de;
+    color: white;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 15px;
+    border-radius: 47px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    /* border: 2px solid red; */
+    height: 80vh;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: scroll
+}
+
+.cryptoBox {
+    border: 1px solid #0000003d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0 0 0);
+    width: 300px;
+    height: 140px;
+    padding: 20px;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.coinimg {
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid blue; */
+}
+
+/* .cryptoBox p{
+    border: 2px solid blue;
+} */
+.cryptoBox-header {
+    display: flex;
+
+}
+
+.cryptoBox-header .left {
+    display: block;
+    margin: auto 5px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
+
+.cryptoBox-header .right {
+    display: block;
+    direction: rtl;
+    width: 100%;
+    margin-top: 19px;
+    font-size: 16px;
+    font-family: monospace;
+
+}
+
+.cryptoBox-middle {
+    /* border: 2px solid rgb(227, 10, 10); */
+
+    display: flex;
+}
+
+.cryptoBox-middle .left {
+    display: flex;
+    width: 100%;
+    margin: 10% auto;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.cryptoBox-middle .right {
+    display: block;
+    margin: auto;
+    font-family: monospace;
+}
+
+.cryptoBox-footer {
+    /* border: 2px solid black; */
+    margin: 1% auto;
+}
+
+.cryptoBox-footer a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #000;
+
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.cryptoBox-footer a:hover {
+    background-color: #061e15;
+
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.footer {
+    display: flex;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 90%);
+}
+
+.footer .down {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 400;
+    margin: auto;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* learn page design */
+.video-container{
+    display: flex;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    height: 55%;
+}
+.video{
+    /* border: 1px solid #0000003d; */
+    box-shadow: 0 18px 8px 0 rgb(0 0 0 / 55%), 0 18px 8px 0 rgb(0 0 0 / 15%);
+    margin: 13px;
+}
+.link-container{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+}
+.link{
+    width: 14%;
+    margin: 3% auto
+}
+.link a{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    text-shadow: 2px 2px 5px red;
+}
+.blog-container{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: mediumblue;
+    margin: 9px auto;
+    text-shadow: 2px 2px red;
+    text-transform: uppercase;
+}
