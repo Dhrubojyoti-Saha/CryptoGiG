@@ -31,7 +31,7 @@ fetch('./assets/crypto_data/data.json')
 							console.log(coin.symbol)
 
 							if (predicted.name == coin.symbol) {
-								let imgPath = "/img/" + (predicted.name) + ".png";
+								let imgPath = "img/" + (predicted.name) + ".png";
 
 								cryptoCoins += `<div class="cryptoBox" id="coinsList">
 						<div class="cryptoBox-header">
