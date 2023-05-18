@@ -199,7 +199,7 @@ opacity: 40%;
     display: flex;
     /* border: 3px solid black; */
     border-radius: 15px;
-    height: 55%;
+    /* height: 55%; */
 }
 .video{
     /* border: 1px solid #0000003d; */
@@ -232,3 +232,41 @@ opacity: 40%;
     text-shadow: 2px 2px red;
     text-transform: uppercase;
 }
+iframe{
+    width:470;
+    height:300;
+}
+@media screen and (max-width: 480px) {
+    .topnav h2 {
+        float: left;
+        color: black;
+        padding: 10px;
+        font-size: 22px;
+    }
+    .topnav a{
+        font-size: 9px;
+    }
+    .footer .down{
+        font-size: 10px;
+    }
+    .video-container{
+        flex-direction: column;
+       
+    }
+    iframe {
+        width: 355px;
+        height: 214px;
+    }
+    .link a{
+        font-size: 15px;
+    }
+    .topnav input[type=text]{
+        font-size: 12px;
+    }
+    .topnav .search-container button {
+        font-size: 15px;
+    }
+    .blog-container {
+        font-size: 20px;
+    }
+  }
